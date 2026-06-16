@@ -16,7 +16,7 @@ public class AliOssUtil {
     // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
     /*EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();*/
     public static final String ACCESS_KEY_ID = "存放自己的OSSAPI";
-    public static final String ACCESS_KEY_SECCRET = "-------";
+    public static final String ACCESS_KEY_SECCRET = "************";
     public static final CredentialsProvider credentialsProvider = new DefaultCredentialProvider(ACCESS_KEY_ID, ACCESS_KEY_SECCRET);
     // 填写Bucket名称，例如examplebucket。
     public static final String BUCKETNAME = "big-event-ink";
