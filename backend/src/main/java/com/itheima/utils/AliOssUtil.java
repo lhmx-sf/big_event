@@ -15,8 +15,8 @@ public class AliOssUtil {
     public static final String ENDPOINT = "oss-cn-wuhan-lr.aliyuncs.com";
     // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
     /*EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();*/
-    public static final String ACCESS_KEY_ID = "LTAI5t89TrmRRt3TPaHaeG1e";
-    public static final String ACCESS_KEY_SECCRET = "9816sHN8JsiNnRSIhLNlLJbCgToSzQ";
+    public static final String ACCESS_KEY_ID = "存放自己的OSSAPI";
+    public static final String ACCESS_KEY_SECCRET = "-------";
     public static final CredentialsProvider credentialsProvider = new DefaultCredentialProvider(ACCESS_KEY_ID, ACCESS_KEY_SECCRET);
     // 填写Bucket名称，例如examplebucket。
     public static final String BUCKETNAME = "big-event-ink";
